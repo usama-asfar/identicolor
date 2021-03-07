@@ -5,21 +5,21 @@ An Identicolor is a visual representation of a hash value, usually of an IP addr
 #### NPM
 
 ```console
-$ npm i Installation
+$ npm i identicolor
 ```
 
 #### Yarn
 
 ```console
-$ yarn add Installation
+$ yarn add identicolor
 ```
 
 #### Usage
 
 ```js
-const identicolor = require('identicolor') // es5
-import identicolor from 'identicolor' // es6
+const identicolor = require('identicolor'); // es5
+import identicolor from 'identicolor'; // es6
 
-const [red, green, blue] = identicolor('Hello World')
+const [red, green, blue] = identicolor('Hello World');
 // [ 49, 48, 102 ]
 ```
