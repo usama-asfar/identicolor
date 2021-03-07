@@ -2,7 +2,7 @@
   "name": "identicolor",
   "version": "1.0.1",
   "description": "An Identicolor is a visual representation of a hash value, usually of an IP address, that serves to identify a user of a computer system as a form of RGB color model while protecting the user's privacy.",
-  "main": "build/index.es.js",
+  "main": "build/index.js",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
   "author": "Usama Asfar <usamaasfar.mua@gmail.com> (https://github.com/usama-asfar)",
@@ -20,8 +20,7 @@
     }
   },
   "files": [
-    "build/index.es.js",
-    "build/index.d.ts"
+    "build"
   ],
   "bugs": {
     "url": "https://github.com/usama-asfar/identicolor/issues"
