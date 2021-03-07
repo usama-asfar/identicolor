@@ -1,6 +1,6 @@
 {
   "name": "identicolor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An Identicolor is a visual representation of a hash value, usually of an IP address, that serves to identify a user of a computer system as a form of RGB color model while protecting the user's privacy.",
   "main": "build/index.js",
   "module": "build/index.es.js",
