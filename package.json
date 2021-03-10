@@ -1,62 +1,29 @@
 {
   "name": "identicolor",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "An Identicolor is a RGB color representation of a hash value, usually of an IP address, that serves to identify a user of a computer system as a form of RGB color model while protecting the user's privacy.",
-  "main": "build/index.js",
-  "module": "build/index.es.js",
-  "jsnext:main": "build/index.es.js",
+  "main": "build/lib/identicolor.js",
+  "types": "build/lib/identicolor.d.ts",
   "author": "Usama Asfar <usamaasfar.mua@gmail.com> (https://github.com/usama-asfar)",
   "license": "MIT",
   "homepage": "https://github.com/usama-asfar/identicolor#readme",
-  "scripts": {
-    "build": "rollup -c",
-    "test": "jest --coverage",
-    "lint": "standard",
-    "format": "prettier-standard --format"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint --fix && yarn format"
-    }
-  },
-  "files": [
-    "build"
-  ],
-  "bugs": {
-    "url": "https://github.com/usama-asfar/identicolor/issues"
+  "dependencies": {},
+  "devDependencies": {
+    "assertthat": "5.2.5",
+    "roboter": "11.6.24",
+    "semantic-release-configuration": "1.0.36"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usama-asfar/identicolor.git"
+    "url": "git://github.com/usamaasfar/identicolor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/usama-asfar/identicolor/issues"
   },
   "keywords": [
     "string",
     "color",
     "md5",
     "hash"
-  ],
-  "devDependencies": {
-    "@types/jest": "^26.0.20",
-    "jest": "^26.6.3",
-    "rollup": "^2.39.0",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-typescript2": "^0.29.0",
-    "standard": "^16.0.3",
-    "standard-prettier": "^1.0.1",
-    "ts-jest": "^26.5.1",
-    "typescript": "^4.1.5"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node"
-  },
-  "standard": {
-    "ignore": [
-      "node_modules/",
-      "build/",
-      "coverage/"
-    ]
-  }
+  ]
 }

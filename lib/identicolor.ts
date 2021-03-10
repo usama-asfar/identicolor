@@ -1,6 +1,6 @@
 // @ts-ignore
-import MD5 from './utils/md5';
-import byte from './utils/byte';
+import MD5 from './helpers/md5.gen';
+import byte from './helpers/byte.con';
 
 function identicolor(term: string) {
   const md5hash = MD5(term);
